@@ -55,8 +55,8 @@ nav.sticky {
 }
 
 .logo img {
-  width: 45px;
-  height: 45px;
+  width: 120px;
+  height: 90px;
   object-fit: contain;
 }
 
@@ -76,6 +76,7 @@ nav.sticky {
 
 .nav-link {
   text-decoration: none;
+  font-size: 1.3rem;
   color: var(--text-dark);
   font-weight: 500;
   padding: 0.3rem 0.5rem;
@@ -124,13 +125,14 @@ nav.sticky {
 .desciption {
   color: var(--text-dark);
   font-size: 1.3rem;
-  margin: 1.3rem 0 2rem 0;
+  margin: 2.3rem 0 2rem 0;
   font-weight: 500;
 }
 
 .buttons {
   display: flex;
-  gap: 1.2rem;
+  gap: 3rem;
+  margin-top: 60px;
 }
 
 .btn {
@@ -704,12 +706,14 @@ height: 320px;
 }
 
 .footer-section {
-  background: #098a2f;
+  background: #136829;
   color: #fff;
   font-family: 'Montserrat', Arial, sans-serif;
   padding: 2.2rem 1rem 1rem 1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 400px;
+  margin-top: 90px;
 }
 
 .footer-top {
@@ -722,6 +726,8 @@ height: 320px;
   margin: 0 auto;
   border-bottom: 1px solid rgba(255,255,255,0.18);
   padding-bottom: 1.2rem;
+  margin-top: 20px;
+ 
 }
 
 .footer-brand {
@@ -733,18 +739,20 @@ height: 320px;
 }
 
 .footer-logo {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 0.7rem;
   object-fit: contain;
+  margin-top: -40px;
 }
 
 .footer-desc {
   font-size: 0.97rem;
   color: #e2ffe2;
   margin-bottom: 0;
-  max-width: 240px;
+  max-width: 290px;
   line-height: 1.5;
+  margin-top: -15px;
 }
 
 .footer-links {
@@ -794,7 +802,7 @@ height: 320px;
   font-size: 1.45rem;
   font-weight: 700;
   letter-spacing: 0.07em;
-  margin: 1.2rem 0 0.7rem 0;
+  margin: 3rem 0 0.7rem 0;
   color: #fff;
 }
 
@@ -812,11 +820,13 @@ height: 320px;
 .footer-copy {
   color: #e2ffe2;
   opacity: 0.9;
+  margin-top: 15px;
 }
 
 .footer-bottom-links {
   display: flex;
   gap: 2.5rem;
+  margin-top: 15px;
 }
 
 .footer-bottom-links a {
