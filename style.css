@@ -43,21 +43,22 @@ nav.sticky {
 .nav-container {
   max-width: 90vw;
   margin: 0 auto;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
+  margin-left: -290px;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
 .logo img {
-  width: 45px;
-  height: 45px;
+  width: 120px;
+  height: 90px;
   object-fit: contain;
 }
 
@@ -71,12 +72,18 @@ nav.sticky {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 6rem;
+  
 }
 
 .nav-link {
   text-decoration: none;
+<<<<<<< HEAD
   color:var(--primary-green) ;
+=======
+  font-size: 1.3rem;
+  color: var(--text-dark);
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   font-weight: 500;
   padding: 0.7rem 0.7rem;
   border-radius: 4px;
@@ -111,9 +118,10 @@ nav.sticky {
   width: 100%;
 }
 
-.mission-text {
+.hero-text {
   flex: 1 1 50%;
   max-width: 500px;
+  font-size: 1rem;
 }
 
 .highlight {
@@ -122,16 +130,21 @@ nav.sticky {
   font-weight: bold;
 }
 
-.desc {
+.desciption {
   color: var(--text-dark);
   font-size: 1.3rem;
+<<<<<<< HEAD
   margin: 1.3rem 0 2rem 0;
+=======
+  margin: 2.3rem 0 2rem 0;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   font-weight: 500;
 }
 
 .buttons {
   display: flex;
-  gap: 1.2rem;
+  gap: 3rem;
+  margin-top: 60px;
 }
 
 .btn {
@@ -166,16 +179,19 @@ nav.sticky {
   color: var(--text-light);
 }
 
-.mission-image {
+.hero-image {
   flex: 1 1 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.mission-image img {
+.hero-image img {
   max-width: 1000px;
   width: 100%;
+  height: 410px;
+  margin-top: -50px;
+  margin-left: 15px;
   border-radius: 18px;
   box-shadow: 0 6px 28px rgba(0,0,0,0.10);
   object-fit: cover;
@@ -231,7 +247,7 @@ nav.sticky {
 .about-card {
   background: #f9f9f9;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  box-shadow: 1 2px 10px rgba(0,0,0,0.07);
   overflow: hidden;
   flex: 1 1 320px;
   max-width: 600px;
@@ -262,15 +278,19 @@ nav.sticky {
 }
 
 .about-card-content h3 {
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  color: #222;
+  color: #5a8d1f;
   margin-bottom: 0.7rem;
 }
 
 .about-card-content p {
   color: #444;
+<<<<<<< HEAD
   font-size: 1.2rem;
+=======
+  font-size: 1.3rem;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   line-height: 1.5;
   flex: 1;
 }
@@ -300,15 +320,24 @@ nav.sticky {
 
 .whyus-header h2 {
   color: #ffc72c;
+<<<<<<< HEAD
   font-size: 1.9rem;
+=======
+  font-size: 2rem;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   font-weight: bold;
   margin-bottom: 0.4rem;
 }
 
 .whyus-subtitle {
   color: #222;
+<<<<<<< HEAD
   font-size: 1.3rem;
   font-weight: 500;
+=======
+  font-size: 2.0rem;
+  padding: 25px;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   margin-bottom: 0.5rem;
 }
 
@@ -349,13 +378,17 @@ nav.sticky {
 }
 
 .whyus-card-title {
+<<<<<<< HEAD
   font-size: 1.3rem;
+=======
+  font-size: 1.4rem;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   color: #222;
   font-weight: 500;
 }
 
 .whyus-action {
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
 }
 
 .whyus-btn {
@@ -385,7 +418,7 @@ nav.sticky {
   .main-section {
     padding: 3rem 1rem;
   }
-  .mission-image {
+  .hero-image {
     justify-content: flex-start;
   }
   .about-cards {
@@ -431,7 +464,7 @@ nav.sticky {
   .highlight {
     font-size: 1.4rem;
   }
-  .mission-image img {
+  .hero-image img {
     max-width: 100%;
   }
   .buttons {
@@ -461,7 +494,7 @@ nav.sticky {
   }
 }
 #explore {
-  max-width: 90vw;
+  max-width: 200vw;
   margin: 0 auto 3rem auto;
   padding: 2rem 1rem;
   background: #fff;
@@ -486,7 +519,8 @@ nav.sticky {
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: 1px;
-  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .photo-screenshot-container {
@@ -616,7 +650,12 @@ text-align: center;
 }
 
 .sustainable-title {
+<<<<<<< HEAD
   font-size: 1.5rem;
+=======
+  font-size: 1.9rem;
+  padding-bottom: 25px;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   font-weight: 700;
   color: #222;
   margin: 0 0 0.7rem 0;
@@ -625,7 +664,11 @@ text-align: center;
 
 .sustainable-description {
   color: #444;
+<<<<<<< HEAD
   font-size: 1.3rem;
+=======
+  font-size: 1.4rem;
+>>>>>>> f0fbe73395925f29dc7355cacf38f544d52ac8b8
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -644,6 +687,7 @@ text-align: center;
 }
 
 .sustainable-images {
+  margin-top: 60px;
   display: flex;
   gap: 1.2rem;
   justify-content: flex-start;
@@ -657,10 +701,19 @@ text-align: center;
   height: 320px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06); 
   background: #f7f7f7;
-  flex: 1 1 240px;
+  flex: 1 1 240px; 
 }
+#farmingsite-1{
+max-width: 290px;
+}
+#farmingsite-2{
+max-width: 200vb;
+height: 320px;
+
+}
+
 
 @media (max-width: 700px) {
   .sustainable-section {
@@ -695,12 +748,14 @@ text-align: center;
 }
 
 .footer-section {
-  background: #098a2f;
+  background: #136829;
   color: #fff;
   font-family: 'Montserrat', Arial, sans-serif;
   padding: 2.2rem 1rem 1rem 1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 400px;
+  margin-top: 90px;
 }
 
 .footer-top {
@@ -713,6 +768,8 @@ text-align: center;
   margin: 0 auto;
   border-bottom: 1px solid rgba(255,255,255,0.18);
   padding-bottom: 1.2rem;
+  margin-top: 20px;
+ 
 }
 
 .footer-brand {
@@ -724,18 +781,20 @@ text-align: center;
 }
 
 .footer-logo {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 0.7rem;
   object-fit: contain;
+  margin-top: -40px;
 }
 
 .footer-desc {
   font-size: 0.97rem;
   color: #e2ffe2;
   margin-bottom: 0;
-  max-width: 240px;
+  max-width: 290px;
   line-height: 1.5;
+  margin-top: -15px;
 }
 
 .footer-links {
@@ -785,7 +844,7 @@ text-align: center;
   font-size: 1.45rem;
   font-weight: 700;
   letter-spacing: 0.07em;
-  margin: 1.2rem 0 0.7rem 0;
+  margin: 3rem 0 0.7rem 0;
   color: #fff;
 }
 
@@ -803,11 +862,13 @@ text-align: center;
 .footer-copy {
   color: #e2ffe2;
   opacity: 0.9;
+  margin-top: 15px;
 }
 
 .footer-bottom-links {
   display: flex;
   gap: 2.5rem;
+  margin-top: 15px;
 }
 
 .footer-bottom-links a {
