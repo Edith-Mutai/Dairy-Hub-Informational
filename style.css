@@ -14,6 +14,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Albert Sans', sans-serif;
 }
 
 body {
@@ -74,10 +76,12 @@ nav.sticky {
 
 .nav-link {
   text-decoration: none;
-  color: var(--text-dark);
+  color:var(--primary-green) ;
   font-weight: 500;
-  padding: 0.3rem 0.5rem;
+  padding: 0.7rem 0.7rem;
   border-radius: 4px;
+  font-size: large;
+  border: none;
   transition: background 0.2s, color 0.2s;
 }
 
@@ -120,7 +124,7 @@ nav.sticky {
 
 .desc {
   color: var(--text-dark);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 1.3rem 0 2rem 0;
   font-weight: 500;
 }
@@ -220,7 +224,8 @@ nav.sticky {
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  margin-bottom: 10%;
+  margin-bottom: 6%;
+  gap: 20px;
 }
 
 .about-card {
@@ -265,7 +270,7 @@ nav.sticky {
 
 .about-card-content p {
   color: #444;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   flex: 1;
 }
@@ -295,14 +300,14 @@ nav.sticky {
 
 .whyus-header h2 {
   color: #ffc72c;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: bold;
   margin-bottom: 0.4rem;
 }
 
 .whyus-subtitle {
   color: #222;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -344,7 +349,7 @@ nav.sticky {
 }
 
 .whyus-card-title {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #222;
   font-weight: 500;
 }
@@ -591,6 +596,10 @@ nav.sticky {
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
 
+.sustainable-section h2{
+text-align: center;
+}
+
 .sustainable-header {
   text-align: left;
   margin-bottom: 0.5rem;
@@ -607,7 +616,7 @@ nav.sticky {
 }
 
 .sustainable-title {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #222;
   margin: 0 0 0.7rem 0;
@@ -616,7 +625,7 @@ nav.sticky {
 
 .sustainable-description {
   color: #444;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
